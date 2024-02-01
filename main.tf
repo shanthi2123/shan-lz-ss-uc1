@@ -80,7 +80,7 @@ module "resource_group" {
     network_ddos_protection_plan_name                       = var.network_ddos_protection_plan_name 
 }
 module "keykault" {
-        source = "./contos/platform/connectivity/keyvault"
+        source = "./contos/platform/connectivity/securityservices/keyvault"
 
          resource_group_name                   = var.resource_group_name
          resource_group_location               = var.resource_group_location
