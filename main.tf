@@ -104,7 +104,7 @@ module "keykault" {
 }
 
 module "virtual_network" {
-    source = "./contos/platform/connectivity/networking/VNET"
+    source = "./contos/platform/connectivity/Networking/VNET"
     virtual_network_name                                    = var.virtual_network_name
     virtual_network_location                                = var.virtual_network_location
     virtual_network_address_space                           = var.virtual_network_address_space
